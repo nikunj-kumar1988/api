@@ -1,0 +1,20 @@
+{
+  "name": "jest-api-framework",
+  "version": "1.0.0",
+  "description": "This is a rest api testing framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "set NODE_ENV=test jest --roots ./spec_tests/modules --config ./jest.config.js --coverage",
+    "development": "set NODE_ENV=dev jest --roots ./spec_tests --config ./jest.config.js --coverage"
+  },
+  "author": "Nikunj Kumar",
+  "license": "ISC",
+  "devDependencies": {
+    "config": "^3.2.2",
+    "jest": "^24.9.0",
+    "jest-html-reporter": "^2.6.0"
+  },
+  "dependencies": {
+    "supertest": "^4.0.2"
+  }
+}
