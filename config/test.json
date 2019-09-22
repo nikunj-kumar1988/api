@@ -1,3 +1,5 @@
 {
-    "baseurl": "https://api.trello.com"
+    "app": {
+        "baseurl": "https://api.trello.com"
+    }
 }
