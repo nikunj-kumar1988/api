@@ -4,7 +4,7 @@
   "description": "This is a rest api testing framework",
   "main": "index.js",
   "scripts": {
-    "test": "set NODE_ENV=test jest --roots ./spec_tests/modules/* --config ./jest.config.js --coverage",
+    "test": "set NODE_ENV=test jest --roots ./spec_tests --config ./jest.config.js --coverage",
     "development": "set NODE_ENV=dev jest --roots ./spec_tests --config ./jest.config.js --coverage"
   },
   "author": "Nikunj Kumar",
@@ -13,7 +13,8 @@
     "config": "^3.2.2",
     "jest": "^24.9.0",
     "jest-html-reporter": "^2.6.0",
-    "nock": "^11.3.5"
+    "nock": "^11.3.5",
+    "superagent": "^5.1.0"
   },
   "dependencies": {
     "@hapi/joi": "^16.1.4",
